@@ -1,0 +1,18 @@
+# 窗口配置
+window_name: "控制点标注工具 - 直方图自动阈值版"
+window_init_scale: 0.5        # 初始缩放比例（建议0.5，适配大图）
+scroll_scale_step: 0.1        # 滚轮缩放步长
+
+# 掩膜配置
+mask_alpha: 0.5               # 掩膜透明度（0-1）
+mask_color: [0, 255, 0]       # 掩膜颜色（BGR，绿色）
+expand_step: 2                # 掩膜微调半径（像素）
+
+# 文字标注配置
+text_color: [0, 0, 255]       # 编号颜色（红色）
+text_font_scale: 0.6          # 字体大小
+text_thickness: 2             # 字体粗细
+
+# 保存配置
+save_dir: "data/results"      # 结果保存目录
+img_save_suffix: "_labeled"   # 标注图片后缀
